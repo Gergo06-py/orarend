@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    padding: 10px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 100px 250px;
+    align-self: center;
+    justify-self: center;
+    gap: 5px;
+    width: 300px;
+}
+
+input {
+    border: 1px solid gray;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    width: 50%;
+    justify-self: center;
+    grid-column: span 2;
+}
+
+input[type="submit"]:hover {
+    background-color: lightgray;
+}
