@@ -1,25 +1,26 @@
 {
-  "name": "orarend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gergo06-py/orarend.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Gergo06-py/orarend/issues"
-  },
-  "homepage": "https://github.com/Gergo06-py/orarend#readme",
-  "devDependencies": {
-    "lite-server": "^2.6.1",
-    "sass": "^1.58.3"
-  }
+	"name": "orarend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "lite-server",
+		"sass": "sass src/style.scss src/style.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Gergo06-py/orarend.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Gergo06-py/orarend/issues"
+	},
+	"homepage": "https://github.com/Gergo06-py/orarend#readme",
+	"devDependencies": {
+		"lite-server": "^2.6.1",
+		"sass": "^1.58.3"
+	}
 }

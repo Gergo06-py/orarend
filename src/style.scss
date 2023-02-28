@@ -1,0 +1,22 @@
+$nav-height: 3rem;
+$main-height: calc(100vh - $nav-height);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 200vh;
+}
+
+#nav {
+    background-color: skyblue;
+    height: $nav-height;
+}
+
+#main {
+    height: $main-height;
+}
